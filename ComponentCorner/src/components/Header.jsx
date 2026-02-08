@@ -14,7 +14,7 @@ function Header({ storeName, cartAmount }) {
         </nav>
         <Link to="/cart" className="cart-container"> 
             <span className="cart-icon">🛒</span> 
-            <p className="cart-badge">{cartAmount}</p>
+            <p className="cart-badge" data-testid="cart-badge">{cartAmount}</p>
         </Link>
       </div>
     </header>
