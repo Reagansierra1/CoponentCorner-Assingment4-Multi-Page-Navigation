@@ -1,0 +1,45 @@
+/* Code is from ChatGPT*/
+.app-footer {
+  width: 410%;
+  background-color: #1c2833; /* dark background */
+  color: cyan;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;     /* stack items vertically */
+  align-items: center;
+}
+
+/* Store name */
+.store-name1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4da6ff;
+}
+
+.contact{
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  color: white;
+}
+
+/* Nav links */
+nav {
+  justify-content: center;
+  display: flex;
+  gap: 30px; /* space between links */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #4da6ff;
+}

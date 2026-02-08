@@ -1,0 +1,15 @@
+/*THis file was partly generated from ChatGPT*/
+
+.hero{
+    background-image: url('https://placehold.co/1200x400/667eea/ffffff');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    color: black;
+    position: relative;
+    width: 410%;
+}

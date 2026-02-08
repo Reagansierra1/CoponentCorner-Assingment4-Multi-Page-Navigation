@@ -1,0 +1,64 @@
+/* Code is from ChatGPT*/
+.app-header {
+  width: 410%;
+  background-color: #1c2833; /* dark background */
+  color: cyan;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center; /* center the container */
+}
+
+/* Flex container for store name + nav */
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* optional, keeps content from stretching too much on huge screens */
+  justify-content: center; /* center everything */
+  gap: 50px; /* space between store name and nav */
+}
+
+/* Store name */
+.store-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4da6ff;
+}
+
+/* Nav links */
+nav {
+  display: flex;
+  gap: 30px; /* space between links */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #4da6ff;
+}
+
+/* Code is from ChatGPT*/
+.cart-icon {
+  position: relative;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+/* Code is from ChatGPT*/
+.cart-badge {
+  position: relative;
+  top: -8px;       /* move badge slightly above the icon */
+  right: -8px;     /* move badge slightly to the right */
+  background-color: red; /* classic badge color */
+  color: white;
+  border-radius: 50%;  /* makes it circular */
+  padding: 2px 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3); /* subtle shadow for better visibility */
+}
